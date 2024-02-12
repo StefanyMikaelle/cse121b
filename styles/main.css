@@ -278,6 +278,17 @@ footer {
     box-shadow: 0 0 30px #777;
     margin: .5rem;
 }
+#filtered{
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    margin-left: .5rem;
+    background-color: #eee;
+    color: rgb(29, 26, 26);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%
+}
 
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
