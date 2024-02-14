@@ -69,7 +69,7 @@ h2 {
 h1 {
     border-bottom: 1px solid #ccc;
 }
-#gridly{
+#gridly-project{
     background: url(../images/background.png);
     background-size: cover;
     max-width: 100vw;
@@ -77,6 +77,9 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#gridly-project h1{
+    padding-top: 80px;
 }
 #gridly h1 {
     padding-top: 80px;
