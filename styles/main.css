@@ -69,9 +69,17 @@ h2 {
 h1 {
     border-bottom: 1px solid #ccc;
 }
-
+#gridly{
+    background: url(../images/background.png);
+    background-size: cover;
+    max-width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #gridly h1 {
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 h2 {
@@ -196,7 +204,13 @@ footer {
     justify-content: right;
     gap: 1rem;
 }
-
+.verse-card{
+    background-color: #F8F9FE;
+    max-width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 0px #154580;
+}
 /* ID Selectors */
 
 #home {
@@ -287,9 +301,11 @@ footer {
     color: rgb(29, 26, 26);
     border-radius: 5px;
     cursor: pointer;
-    width: 30%
+    width: 50%
 }
-
+#verses{
+    padding-top: 6rem;
+}
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
